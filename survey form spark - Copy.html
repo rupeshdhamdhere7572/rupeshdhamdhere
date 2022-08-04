@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Build a survey using HTML And CSS</title>
+	<link rel="stylesheet" type="text/css" href="survay form.css">
+	<style type="text/css">
+		
+		.c1
+		{
+			height: 40px;
+		}
+		.c2
+		{
+			height: 40px;
+		}
+		.c3
+		{
+			height: 40px;
+		}
+	</style>
+</head>
+<h1  align="center">SPARK SURVEY USING HTML AND CSS</h1>
+<form id="form">
+	<div class="form-control">
+		<label for="name" id="lable-name">Name</label>
+		<input type="text" id="name"  class="c1" placeholder="Enter your Name" size="60" height="50px"/>
+	</div>
+	<div class="form-control">
+	<label for="email" id="lable-name">E-mail</label>
+        <input type="email" id="email" placeholder="Enter your mail" class="c2" size="60"/>	
+    </div>
+    <div  class="form-control" >
+    <label for="age" id="lable-age">Age</label>
+    <input type="text" id="Age" placeholder="Enter your Age" class="c3" size="60"/>
+    </div>
+    <div class="form-control">
+    	<label for="Role" id="label-role">Which best describes you</label>
+    	<select name="Role" id="Role">
+    	<option value="student">Student</option>
+    	<option value="intern">Intern</option>
+    	<option value="professional">Professional</option>
+    	<option value="Other">Other</option>
+    	</select>
+    	<div class="form-control"></div>
+    	<label>Would you recommend SPARK
+				to a friend?</label>
+		<label for="recommend-1">
+		<input type="radio" id="recommend-1" name="recommend">Yes</input>
+		</label>	
+		<label for="recommend-2">
+		<input type="radio" id="recommend-2" name="recommend">No</input>
+		</label>	
+		<label for="recommend-3">
+		<input type="radio" id="recommend-3" name="recommend">Maybe</input>
+		</label>
+		 </div>
+		<div class="form-control">
+			<label>Languages and Frameworks known <small>Check all that apply)</small></label>
+			<label for="inp-1"><input type="checkbox" name="inp">C</label>
+			<label for="inp-2"><input type="checkbox" name="inp">C++</label>
+			<label for="inp-3"><input type="checkbox" name="inp">JavaScript</label>
+			<label for="inp-4"><input type="checkbox" name="inp">Python</label>
+			<label for="inp-5"><input type="checkbox" name="inp">HTML</label>
+			<label for="inp-6"><input type="checkbox" name="inp">CSS</label>
+			<label for="inp-7"><input type="checkbox" name="inp">React</label>
+			<label for="inp-8"><input type="checkbox" name="inp">Angular</label>
+			<label for="inp-9"><input type="checkbox" name="inp">Django</label>
+			<label for="inp-10"><input type="checkbox" name="inp">Bootstrap</label>
+			</div>
+
+			<div class="form-control">
+				<label for="comment">Any Comments or Sugggestions</label>
+				<textarea name="comment" id="comment" placeholder="Enter Your comment Here"></textarea>
+            <button type="submit" value="submit">Submit</button>
+</form>
+<body>
+
+</body>
+</html>
