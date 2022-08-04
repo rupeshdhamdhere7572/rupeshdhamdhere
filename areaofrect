@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{
+	int a,b;
+	printf("\n lenghth of rectangle");
+	scanf("%d",&a);
+	printf("\n breadth of rectangle");
+	scanf("%d",&b);
+	printf("\n the area of rectangle is %d%d=",a*b);
+}
